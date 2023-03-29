@@ -7,7 +7,7 @@ import VueSetupExtand from 'vite-plugin-vue-setup-extend'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(), vueJsx(), VueSetupExtand(), Eslint],
+  plugins: [vue(), vueJsx(), VueSetupExtand()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))

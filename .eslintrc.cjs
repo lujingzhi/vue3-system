@@ -57,7 +57,31 @@ module.exports = {
     'vue/attribute-hyphenation': 'off',
     'vue/require-default-prop': 'off',
     'vue/require-explicit-emits': 'off',
-    'vue/html-self-closing': 'off'
+    'vue/html-self-closing': 'off',
+
+    
+    'indent': [
+      2,
+      2,
+      {
+        SwitchCase: 1
+      }
+    ],
+    'comma-spacing': [
+      2,
+      {
+        before: false,
+        after: true
+      }
+    ],
+    "no-multi-spaces": 2,
+    "arrow-spacing": 2,
+    "no-dupe-args": 2,
+    "no-dupe-keys": 2,
+    "no-empty": 2,
+    "no-unreachable": 2,
+    "eqeqeq": 2,
+    "no-label-var": 2,
   },
   extends: [
     'eslint:recommended',
