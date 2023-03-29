@@ -1,5 +1,5 @@
 <template>
-  <a-layout-sider v-model="collapsed" :trigger="null" collapsible>
+  <a-layout-sider v-model="collapsed" :trigger="null" collapsib\rules\multi-word-component-names.htmlle>
     <div class="logo" />
     <a-menu
       v-model:selectedKeys="selectedKeys"
